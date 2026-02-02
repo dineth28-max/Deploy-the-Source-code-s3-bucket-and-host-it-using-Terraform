@@ -24,6 +24,15 @@ The project shows how to create a **highly available web application** with auto
 
 After deploying the project, Terraform will output the **ALB DNS name**.  
 
-Users can access the website by opening this **ALB DNS URL** in a browser:  
+Users can access the website by opening this **ALB DNS URL** in a browser: 
+--
+## Web Application
+<img width="1919" height="969" alt="Screenshot 2026-01-28 115935" src="https://github.com/user-attachments/assets/192b45e3-4451-4bd7-b515-7e8e2fc3382f" />
+<img width="1919" height="974" alt="Screenshot 2026-01-28 115947" src="https://github.com/user-attachments/assets/ddb8cec2-941d-4b36-9ba9-0832d3288829" />
+<img width="1919" height="958" alt="Screenshot 2026-01-28 120000" src="https://github.com/user-attachments/assets/fe521e02-9dcf-41a0-8aed-c2d85dbc3857" />
+<img width="1919" height="986" alt="Screenshot 2026-01-28 120011" src="https://github.com/user-attachments/assets/a18b3810-31c6-4c0d-89f0-eb3744628768" />
+
+
+
 
 
