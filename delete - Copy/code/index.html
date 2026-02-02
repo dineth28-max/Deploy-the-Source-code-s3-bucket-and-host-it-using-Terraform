@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliceline | Premium Pizza Experience</title>
+    <meta name="description"
+        content="Experience the best artisan pizza in town. Fresh ingredients, wood-fired perfection. Order online now.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Sliceline<span class="dot">.</span></a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order" class="btn-primary nav-btn">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">Taste the <span class="highlight">Legendary</span></h1>
+            <p class="fade-in-up delay-1">Hand-tossed, wood-fired, and crafted with passion. Experience pizza like never
+                before.</p>
+            <div class="hero-btns fade-in-up delay-2">
+                <a href="#menu" class="btn-primary">View Menu <i class="fas fa-arrow-right"></i></a>
+                <a href="#about" class="btn-secondary">Our Story</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down bounce"></i>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="container grid-3">
+            <div class="feature-card reveal">
+                <div class="icon-box"><i class="fas fa-fire"></i></div>
+                <h3>Wood Fired</h3>
+                <p>Authentic neapolitan style baking at 900°F for that perfect char.</p>
+            </div>
+            <div class="feature-card reveal delay-1">
+                <div class="icon-box"><i class="fas fa-leaf"></i></div>
+                <h3>Fresh Ingredients</h3>
+                <p>Daily sourced locally grown vegetables and premium hand-cut meats.</p>
+            </div>
+            <div class="feature-card reveal delay-2">
+                <div class="icon-box"><i class="fas fa-motorcycle"></i></div>
+                <h3>Fast Delivery</h3>
+                <p>Hot and fresh to your doorstep in under 30 minutes, guaranteed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="section-header center-text reveal">
+                <span class="sub-heading">Delicious Choices</span>
+                <h2>Our Best Sellers</h2>
+            </div>
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <div class="price-tag">$18</div>
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600"
+                            alt="Margherita">
+                    </div>
+                    <div class="card-content">
+                        <h3>Classic Margherita</h3>
+                        <p>San Marzano tomato sauce, fresh mozzarella di bufala, basil.</p>
+                        <button class="btn-outline">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="menu-card reveal delay-1">
+                    <div class="card-image">
+                        <div class="price-tag">$22</div>
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&q=80&w=600"
+                            alt="Pepperoni">
+                    </div>
+                    <div class="card-content">
+                        <h3>Double Pepperoni</h3>
+                        <p>Double layer of crispy pepperoni, mozzarella, spicy honey drizzle.</p>
+                        <button class="btn-outline">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="menu-card reveal delay-2">
+                    <div class="card-image">
+                        <div class="price-tag">$24</div>
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=600"
+                            alt="Truffle Mushroom">
+                    </div>
+                    <div class="card-content">
+                        <h3>Truffle Mushroom</h3>
+                        <p>Wild mushrooms, truffle oil, garlic cream sauce, thyme.</p>
+                        <button class="btn-outline">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="center-text mt-4 reveal">
+                <a href="#" class="btn-link">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner reveal">
+        <div class="container banner-content">
+            <h2>Order Online & Get 20% Off</h2>
+            <p>Use code <strong>SLICE20</strong> on your first order via our app or website.</p>
+            <a href="#" class="btn-primary">Order Now</a>
+        </div>
+    </section>
+
+    <footer class="footer section-padding">
+        <div class="container grid-4">
+            <div class="footer-col">
+                <a href="#" class="logo">Sliceline<span class="dot">.</span></a>
+                <p>Crafting the perfect slice since 2010. We believe in quality, tradition, and innovation.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Pizza Lane, Food City</li>
+                    <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> hello@sliceline.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon - Fri: 11am - 10pm</li>
+                    <li>Sat - Sun: 10am - 11pm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sliceline. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
